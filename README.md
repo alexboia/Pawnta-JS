@@ -78,6 +78,9 @@ The API key is looked for in the `x-api-key` header (first) and the `apiKey` que
 ## Other notes
 See [here the official guide on using citeproc-js](https://citeproc-js.readthedocs.io/en/latest/setting-up.html).
 
+NodeJs update to latest version (v22.13.1 as of writing this note) was required because of the following error: `ReferenceError: ReadableStream is not defined`.
+So, as you might imagine, I can't give you a minimum system requirements.
+
 ## What's next
 Nothing, lest I need it at some point and I find that something's wrong with it. 
 It was just target practice with bragging rights, albeit one that I hope will help somebody else.
