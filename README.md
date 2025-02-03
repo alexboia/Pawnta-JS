@@ -12,7 +12,7 @@ Now... this was actually a application which I have used to support a larger eco
 Its purpose was to generate citations and bibliographies based on the [CSL](https://citationstyles.org/) language and using the citeproc-js processor to do the heavy-lifting.
 As you probably guessed, it's a NodeJs application with a very simple JSON-based API.
 
-In effect, it is merely a thin (but highly effective) wrapper which I wrote some ten years ago and the purpose of this exercise is to:
+In effect, it is merely a thin (but highly effective) wrapper which I wrote some ten years ago and the purpose of this exercise was to:
 - configure it to run again;
 - refactor it;
 - use updated dependencies.
