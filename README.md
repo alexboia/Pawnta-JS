@@ -78,7 +78,7 @@ The API key is looked for in the `x-api-key` header (first) and the `apiKey` que
 ## Other notes
 See [here the official guide on using citeproc-js](https://citeproc-js.readthedocs.io/en/latest/setting-up.html).
 
-## What's next.
+## What's next
 Nothing, lest I need it at some point and I find that something's wrong with it. 
 It was just target practice with bragging rights, albeit one that I hope will help somebody else.
 Obviously, this shouldn't stop you from buying me some coffee.
