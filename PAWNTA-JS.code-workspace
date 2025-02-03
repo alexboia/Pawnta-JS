@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {},
+	"launch": {
+		"configurations": [
+			{
+				"type": "node",
+				"name": "DEBUG IIS NODE",
+				"request": "attach",
+				"localRoot": "D:\\Proiecte\\Pawnta-JS\\src",
+				"remoteRoot": "D:\\Proiecte\\Pawnta-JS\\src"
+			}
+		]
+	}
+}

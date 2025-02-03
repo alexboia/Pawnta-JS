@@ -1,0 +1,17 @@
+{
+    "Style":"chicago-fullnote-bibliography-no-ibid",
+    "Locale":"ro-RO",
+    "Book":{
+        "DocumentId":4480,
+        "DocumentTitle":"Inselaciunea in noul Cod penal",
+        "Authors":[{"AuthorId":1856,"FirstName":"DUVAC","LastName":"Constantin"}],
+        "MagazineTitle":"Dreptul 1/2012",
+        "DocumentType":3,
+        "SerialNumber":"1018-043501201",
+        "SerialNumberType":"ISSN",
+        "PublisherName":"Uniunea Juriştilor din România",
+        "PublishingPlaceName":null,
+        "PublicationYear":2012
+    },
+    "Page":107
+}

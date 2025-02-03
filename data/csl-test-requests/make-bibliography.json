@@ -1,0 +1,35 @@
+{
+    "Style":"chicago-fullnote-bibliography",
+    "Locale":"ro-RO",
+    "Items": [{
+        "Book":{
+            "DocumentId":4480,
+            "DocumentTitle":"Inselaciunea in noul Cod penal",
+            "Authors":[{"AuthorId":1856,"FirstName":"DUVAC","LastName":"Constantin"}],
+            "MagazineTitle":"Dreptul 1/2012",
+            "DocumentType":3,
+            "SerialNumber":"1018-043501201",
+            "SerialNumberType":"ISSN",
+            "PublisherName":"Uniunea Juriştilor din România",
+            "PublishingPlaceName":null,
+            "PublicationYear":2012
+        },
+        "Page":107
+    }, {
+        "Book": {
+            "DocumentId":1,
+            "DocumentTitle":"Structuri de date si algoritmi",
+            "DocumentType":1,
+            "SerialNumber":"978-973-650-213-2",
+            "SerialNumberType":"ISBN",
+            "PublisherName":"Editura Albastra",
+            "PublishingPlaceName":"Cluj-Napoca",
+            "CollectionTitle":"223 Seria PC",
+            "Authors": [
+                { "FirstName": "Enache", "LastName": "Adrian" }
+            ],
+            "PublicationYear": 2006
+        },
+        "Page": 110
+    }]
+}
