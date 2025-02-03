@@ -4,7 +4,13 @@
 			"path": "."
 		}
 	],
-	"settings": {},
+	"settings": {
+		"editor.wordWrap": "off",
+		"[markdown]": {
+			"editor.wordWrap": "off"
+		}
+
+	},
 	"launch": {
 		"configurations": [
 			{
