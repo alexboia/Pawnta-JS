@@ -4,7 +4,9 @@
     "Book":{
         "DocumentId":4480,
         "DocumentTitle":"Inselaciunea in noul Cod penal",
-        "Authors":[{"AuthorId":1856,"FirstName":"DUVAC","LastName":"Constantin"}],
+        "Authors":[{
+            "AuthorId":1856,"FirstName":"DUVAC","LastName":"Constantin"
+        }],
         "MagazineTitle":"Dreptul 1/2012",
         "DocumentType":3,
         "SerialNumber":"1018-043501201",

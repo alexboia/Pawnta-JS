@@ -11,7 +11,11 @@ function _writeJson(response, obj) {
 }
 
 function _badRequest(response) {
-	response.status(400);
+	response.status(400).send({ Success: false });
+}
+
+function _notAuthorized(response) {
+	response.status(401).send({ Success: false });
 }
 
 function _getAvailableStyles() {
@@ -156,6 +160,22 @@ function _processJsonRequest(request, response, processor) {
 	   	});
 	});
 }
+
+function _authorizeApiKey(request, response, next) {
+	let apiKey = request.headers['x-api-key'];
+	if (!apiKey) {
+		apiKey = request.query.apiKey;
+	}
+
+	if (!apiKey || apiKey != config.apiKey) {
+		_notAuthorized(response);
+		return;
+	}
+
+	next();
+}
+
+server.use(_authorizeApiKey);
 
 server.get('/citations/available-styles', function(request, response) {
 	_getAvailableStyles()

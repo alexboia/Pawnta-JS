@@ -64,3 +64,16 @@ The project includes styles and locales data files (`data/csl-defs` and `data/cs
 - locales: https://github.com/citation-style-language/locales
 
 Also please see [the main website on Citation Style Language](https://citationstyles.org/).
+
+The folders can be configured to reside somewhere else; please see `engine/config.js`.
+
+## Web server configuration
+See `web.config` for iisnode, URL rewriting and access restrictions to various folders.
+
+## Security
+Since it was design as an internal facing application, it was never exposed outside the network.
+It only has an API key authorization and the API Key is stored in `engine/config.js`.
+The API key is looked for in the `x-api-key` header (first) and the `apiKey` query string parameter (second).
+
+## Other notes
+See [here the official guide on using citeproc-js](https://citeproc-js.readthedocs.io/en/latest/setting-up.html).
