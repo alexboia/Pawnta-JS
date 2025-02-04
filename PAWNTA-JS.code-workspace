@@ -17,6 +17,8 @@
 				"type": "node",
 				"name": "DEBUG IIS NODE",
 				"request": "attach",
+				"address": "pawntajs.local",
+				"port": 80,
 				"localRoot": "D:\\Proiecte\\Pawnta-JS\\src",
 				"remoteRoot": "D:\\Proiecte\\Pawnta-JS\\src"
 			}

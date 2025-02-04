@@ -19,9 +19,7 @@ CSLSys.prototype.retrieveLocale = function(localeId) {
 };
 
 CSLSys.prototype.loadItems = function(items) {
-	if (this._items) {
-		this._items = items || {};
-	}
+	this._items = items || {};
 };
 
 CSLSys.prototype.retrieveItem = function(itemId) {
@@ -32,9 +30,7 @@ CSLSys.prototype.retrieveItem = function(itemId) {
 };
 
 CSLSys.prototype.clearItems = function() {
-	if (this._items) {
-		this._items = {};
-	}
+	this._items = {};
 };
 
 CSLSys.prototype.getAbbreviation = function(abbrId) {

@@ -30,6 +30,7 @@ CSLWrapper.prototype.generateCitation = function(item) {
 	}
 	this._engine.updateItems([]);
 	this._engine.restoreProcessorState();
+	this._sys.clearItems();
 
 	return citation ? citation[0][1] : null;
 };
@@ -96,6 +97,7 @@ CSLWrapper.prototype.generateBibliography = function(items) {
 
 	engine.updateItems([]);
 	engine.restoreProcessorState();
+	this._sys.clearItems();
 
 	return result;
 };
@@ -107,6 +109,8 @@ CSLWrapper.prototype.getBibResult = function(bib) {
 	var bibEnd = bibMeta.bibend || '';
 	var entries = bib[1] || [];
 	var result = {
+		BibStart: bibStart,
+		BibEnd: bibEnd,
 		EntrySpacing: bibMeta.entryspacing || 0,
 		LineSpacing: bibMeta.linespacing || 0,
 		MaxOffset: bibMeta.maxoffset || 0,
