@@ -62,7 +62,7 @@ exports.XML = {
         if (typeof str == 'undefined') {
             return bibEscapeText('\u2019');
         }
-        return bibEscapeText(tate.getTerm("open-inner-quote") + str + state.getTerm("close-inner-quote"));
+        return bibEscapeText(state.getTerm("open-inner-quote") + str + state.getTerm("close-inner-quote"));
     },
     "@quotes/false": false,
 
